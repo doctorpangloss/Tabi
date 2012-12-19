@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TabiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TabiAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		6711AB3C1108BDC60031EDE0 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6711AB3B1108BDC60031EDE0 /* Entitlements.plist */; };
+		6718D12911099F0000F82F22 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6718D12811099F0000F82F22 /* Default.png */; };
+		672A18FD11111BDE002D40F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672A18FC11111BDE002D40F9 /* UIKit.framework */; };
+		672E839911067088001B2C10 /* UIAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E839811067088001B2C10 /* UIAppUtils.m */; };
+		672E83D211067B78001B2C10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672E83D111067B78001B2C10 /* SystemConfiguration.framework */; };
+		675A208B10FD51FB00816A08 /* SOCKSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A208A10FD51FB00816A08 /* SOCKSServer.m */; };
+		678AD9FB112DD41500514633 /* EventNotifyingUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 678AD9FA112DD41500514633 /* EventNotifyingUIWindow.m */; };
+		678ADA65112E503300514633 /* ScreenSaverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678ADA63112E503300514633 /* ScreenSaverController.m */; };
+		678ADA66112E503300514633 /* ScreenSaverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678ADA64112E503300514633 /* ScreenSaverController.xib */; };
+		678ADC7B112F055B00514633 /* iPhone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 678ADC7A112F055B00514633 /* iPhone_icon.png */; };
+		678D0A30113319BA00501B10 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D0A27113319BA00501B10 /* Actor.m */; };
+		678D0A31113319BA00501B10 /* BlocksAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D0A29113319BA00501B10 /* BlocksAdditions.m */; };
+		678D0A32113319BA00501B10 /* CollectionsAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D0A2B113319BA00501B10 /* CollectionsAdditions.m */; };
+		678D0A33113319BA00501B10 /* NetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D0A2D113319BA00501B10 /* NetUtils.m */; };
+		678D0A34113319BA00501B10 /* NetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D0A2F113319BA00501B10 /* NetworkObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TabiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabiAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TabiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabiAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Tabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Tabi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabi_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6711AB3B1108BDC60031EDE0 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		6718D12811099F0000F82F22 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		672A18FC11111BDE002D40F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		672E839711067088001B2C10 /* UIAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIAppUtils.h; path = ../iPhone/UIAppUtils.h; sourceTree = "<group>"; };
+		672E839811067088001B2C10 /* UIAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIAppUtils.m; path = ../iPhone/UIAppUtils.m; sourceTree = "<group>"; };
+		672E83D111067B78001B2C10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		675A208910FD51FB00816A08 /* SOCKSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCKSServer.h; sourceTree = "<group>"; };
+		675A208A10FD51FB00816A08 /* SOCKSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCKSServer.m; sourceTree = "<group>"; };
+		678AD9F9112DD41500514633 /* EventNotifyingUIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventNotifyingUIWindow.h; sourceTree = "<group>"; };
+		678AD9FA112DD41500514633 /* EventNotifyingUIWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventNotifyingUIWindow.m; sourceTree = "<group>"; };
+		678ADA62112E503300514633 /* ScreenSaverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSaverController.h; sourceTree = "<group>"; };
+		678ADA63112E503300514633 /* ScreenSaverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverController.m; sourceTree = "<group>"; };
+		678ADA64112E503300514633 /* ScreenSaverController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenSaverController.xib; sourceTree = "<group>"; };
+		678ADC7A112F055B00514633 /* iPhone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_icon.png; sourceTree = "<group>"; };
+		678D0A26113319BA00501B10 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		678D0A27113319BA00501B10 /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		678D0A28113319BA00501B10 /* BlocksAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksAdditions.h; sourceTree = "<group>"; };
+		678D0A29113319BA00501B10 /* BlocksAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksAdditions.m; sourceTree = "<group>"; };
+		678D0A2A113319BA00501B10 /* CollectionsAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsAdditions.h; sourceTree = "<group>"; };
+		678D0A2B113319BA00501B10 /* CollectionsAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsAdditions.m; sourceTree = "<group>"; };
+		678D0A2C113319BA00501B10 /* NetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUtils.h; sourceTree = "<group>"; };
+		678D0A2D113319BA00501B10 /* NetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetUtils.m; sourceTree = "<group>"; };
+		678D0A2E113319BA00501B10 /* NetworkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkObserver.h; sourceTree = "<group>"; };
+		678D0A2F113319BA00501B10 /* NetworkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkObserver.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Tabi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tabi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				672E83D211067B78001B2C10 /* SystemConfiguration.framework in Frameworks */,
+				672A18FD11111BDE002D40F9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				678AD9F9112DD41500514633 /* EventNotifyingUIWindow.h */,
+				678AD9FA112DD41500514633 /* EventNotifyingUIWindow.m */,
+				675A208910FD51FB00816A08 /* SOCKSServer.h */,
+				675A208A10FD51FB00816A08 /* SOCKSServer.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				1D3623240D0F684500981E51 /* TabiAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TabiAppDelegate.m */,
+				678ADA62112E503300514633 /* ScreenSaverController.h */,
+				678ADA63112E503300514633 /* ScreenSaverController.m */,
+				678ADA64112E503300514633 /* ScreenSaverController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Tabi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				678D0A25113319B900501B10 /* Common */,
+				28A0AAE50D9B0CCF005BE974 /* Tabi_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				678ADC7A112F055B00514633 /* iPhone_icon.png */,
+				6711AB3B1108BDC60031EDE0 /* Entitlements.plist */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Tabi-Info.plist */,
+				6718D12811099F0000F82F22 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672A18FC11111BDE002D40F9 /* UIKit.framework */,
+				672E83D111067B78001B2C10 /* SystemConfiguration.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678D0A25113319B900501B10 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				678D0A26113319BA00501B10 /* Actor.h */,
+				678D0A27113319BA00501B10 /* Actor.m */,
+				678D0A28113319BA00501B10 /* BlocksAdditions.h */,
+				678D0A29113319BA00501B10 /* BlocksAdditions.m */,
+				678D0A2A113319BA00501B10 /* CollectionsAdditions.h */,
+				678D0A2B113319BA00501B10 /* CollectionsAdditions.m */,
+				678D0A2C113319BA00501B10 /* NetUtils.h */,
+				678D0A2D113319BA00501B10 /* NetUtils.m */,
+				678D0A2E113319BA00501B10 /* NetworkObserver.h */,
+				678D0A2F113319BA00501B10 /* NetworkObserver.m */,
+				672E839711067088001B2C10 /* UIAppUtils.h */,
+				672E839811067088001B2C10 /* UIAppUtils.m */,
+			);
+			name = Common;
+			path = ../Common;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Tabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tabi" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabi;
+			productName = Tabi;
+			productReference = 1D6058910D05DD3D006BFB54 /* Tabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tabi_iPhone" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Tabi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				6711AB3C1108BDC60031EDE0 /* Entitlements.plist in Resources */,
+				6718D12911099F0000F82F22 /* Default.png in Resources */,
+				678ADA66112E503300514633 /* ScreenSaverController.xib in Resources */,
+				678ADC7B112F055B00514633 /* iPhone_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TabiAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				675A208B10FD51FB00816A08 /* SOCKSServer.m in Sources */,
+				672E839911067088001B2C10 /* UIAppUtils.m in Sources */,
+				678AD9FB112DD41500514633 /* EventNotifyingUIWindow.m in Sources */,
+				678ADA65112E503300514633 /* ScreenSaverController.m in Sources */,
+				678D0A30113319BA00501B10 /* Actor.m in Sources */,
+				678D0A31113319BA00501B10 /* BlocksAdditions.m in Sources */,
+				678D0A32113319BA00501B10 /* CollectionsAdditions.m in Sources */,
+				678D0A33113319BA00501B10 /* NetUtils.m in Sources */,
+				678D0A34113319BA00501B10 /* NetworkObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tabi_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Tabi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = Tabi;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tabi_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Tabi-Info.plist";
+				PRODUCT_NAME = Tabi;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tabi_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
